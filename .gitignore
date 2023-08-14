@@ -5,6 +5,6 @@ dist/
 .DS_Store
 coverage/
 .vscode/
-products/
+products-images/
 images/
 .idea
