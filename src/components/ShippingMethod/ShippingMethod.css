@@ -15,6 +15,7 @@ body {
 .right {
     width: 50%;
     background: #F2F2F2;
+    height: 100vh;
 }
 .left-container {
     width: 80%;

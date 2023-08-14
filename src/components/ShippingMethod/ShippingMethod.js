@@ -1,8 +1,13 @@
 import React from 'react'
 import "./ShippingMethod.css";
 import ShippingChoice from '../ShippingChoice/ShippingChoice';
+import { Link, useNavigate } from 'react-router-dom';
 
 const ShippingMethod = () => {
+    const navigation = useNavigate();
+    const handlePaymentButton = () => {
+        navigation("/payment");
+    }
   return (
     <div class="shipping-address-main">
         <div class="left">
@@ -11,13 +16,13 @@ const ShippingMethod = () => {
                     <div class="contact-ship-preview-container">
                         <div class="preview-contact-line-container">
                             <div><span class="ship-contact-title">Contact</span> <span class="contact-email">joe.spagnuolo@uxbly.com</span></div>
-                            <a href="" class="edit-button">Edit</a>
+                            <Link to="/shipping-address" class="edit-button">Edit</Link>
                         </div>
                        
                         <hr />
                         <div class="preview-ship-line-container">
                             <div><span class="ship-to-title">Ship to</span> <span class="ship-to-info">Via Firenze 23, 92023, Campobello di  Licata AG, Italia</span></div>
-                            <a href="" class="edit-button">Edit</a>
+                            <Link to="/shipping-address" class="edit-button">Edit</Link>
                         </div>
                     </div>
                 </div>
@@ -29,8 +34,8 @@ const ShippingMethod = () => {
     
                 </form>
                 <div class="button-group-shipping">
-                    <a href="" class="back-to-detail">Back to details</a>
-                    <button class="go-to-payment-button">Go to payment</button>
+                    <Link to="/shipping-address" class="back-to-detail">Back to details</Link>
+                    <button class="go-to-payment-button" onClick={handlePaymentButton} >Go to payment</button>
                 </div>
             </div>
             

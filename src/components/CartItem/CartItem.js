@@ -8,7 +8,7 @@ const CartItem = ({photoPath, title, price}) => {
             <td class="product-table-1">
                 <img src={photoPath} />
                 <div class="title-description">
-                    <h4>{title}</h4>
+                     <h4>{title}</h4>
                     <a href="#">Remove</a>
                 </div>
             </td>

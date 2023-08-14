@@ -1,15 +1,21 @@
 import React from 'react'
 import "./ShippingAddress.css";
 import logo from "../../images/logo.jpg";
+import { useNavigate } from 'react-router';
+import { Link } from 'react-router-dom';
 
 const ShippingAddress = () => {
+    const navigate = useNavigate();
+    const handleShipping = () => {
+        navigate('/shipping-method')
+    }
   return (
     <div className="shipping-address-main">
         <div className="address-main">
             <div className="address-main-container">
                 <div className="shipping-address-header">
                     <div className="logo-container">
-                        <a href=""><img id="logo" src={logo}  alt='logo'/></a>
+                        <Link to="/"><img id="logo" src={logo}  alt='logo'/></Link>
                     </div>
                 </div>
                 <div className="contact-header">
@@ -47,8 +53,8 @@ const ShippingAddress = () => {
                     </label>
                 </div>
                 <div className="button-group">
-                    <a className="back-to-cart">Back to cart</a>
-                    <button className="go-to-shipping-button">Go to shipping</button>
+                    <Link to="/cart" className="back-to-cart">Back to cart</Link>
+                    <button className="go-to-shipping-button" onClick={handleShipping}>Go to shipping</button>
                 </div>
                
                 

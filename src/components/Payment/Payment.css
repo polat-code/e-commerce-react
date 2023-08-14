@@ -1,0 +1,177 @@
+.payment-main {
+    display: flex;
+    flex-direction: row;
+    margin-left: 12%;
+    position: relative;
+
+}
+.left {
+    width: 50%;
+    
+}
+
+.right {
+    width: 50%;
+}
+
+.payment-method-title {
+    color: var(--black, #272727);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25.6px; /* 128% */
+    letter-spacing: -0.2px;
+
+}
+
+.credit-card-container {
+    background: linear-gradient(93deg, rgba(86, 178, 128, 0.20) 0%, rgba(86, 178, 128, 0.40) 100%);
+    border-radius: 9px 9px 0px 0px;
+}
+.credit-card-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.payment-card-main {
+    border-radius: 7px;
+    border: 1px solid #E5E5E5;
+    border-radius: 9px;
+}
+.credit-card-title img{
+    margin-left: 30px;
+}
+.credit-card-title h3 {
+    margin-left: 20px;
+    color: var(--green, #56B280);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15.6px; /* 97.5% */
+    letter-spacing: -0.9px;
+    
+}
+.card-number-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 24px 19px 12px 18px;
+    
+   
+}
+
+#card-number-input {
+    
+    background: url("../../images/LockFill.svg") no-repeat right;
+    background-position-x : 95% ;
+    padding:  7px 10px 7px 17px;
+    color: #616161;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px; /* 182.857% */
+    width: 90%;
+    height: 26px;
+    flex-shrink: 0;
+    border: 0.5px solid #898989;
+}
+#holder-name-input {
+    width: 83.3%;
+    color: #616161;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px; /* 182.857% */
+    border: 0.5px solid #898989;
+    padding:  7px 10px 7px 17px;
+    height: 26px;
+    margin: 0px 19px 12px 18px;
+}
+
+.payment-input-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 39px 30px 18px;
+}
+.payment-input-group input{
+    padding:  7px 10px 7px 17px;
+    color: #616161;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px; /* 182.857% */
+    width: 40%;
+    height: 26px;
+    flex-shrink: 0;
+    border: 0.5px solid #898989;
+}
+
+#cvv-input {
+    background: url("../../images/InfoSquareFill.svg") no-repeat right;
+    background-position-x : 90% ;
+}
+
+
+.tax-informations-title {
+    color: var(--black, #272727);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25.6px; /* 128% */
+    letter-spacing: -0.2px;
+
+}
+
+.vat-number-input {
+    width: 473px;
+    color: #616161;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px; /* 182.857% */
+    padding: 7px 17px;
+    border: 0.5px solid #898989;
+    background: #FFF;
+    margin-bottom: 12px;
+}
+.pec-number-input {
+    width: 473px;
+    color: #616161;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px; /* 182.857% */
+    padding: 7px 17px;
+    border: 0.5px solid #898989;
+    background: #FFF;
+}
+.billing-address-title {
+    color: var(--black, #272727);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25.6px; /* 128% */
+    letter-spacing: -0.2px;
+
+}

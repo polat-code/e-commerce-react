@@ -28,7 +28,10 @@
     font-weight: 500;
     line-height: 57.6px; /* 221.538% */
     letter-spacing: -0.9px;
+    
+    
 }
+
 
 .title-description a {
     color: var(--green, #56B280);

@@ -3,8 +3,13 @@ import Navbar from '../Navbar/Navbar'
 import Footer from '../Footer/Footer'
 import "./Cart.css";
 import CartItem from '../CartItem/CartItem';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Cart = () => {
+    const navigate = useNavigate();
+    const handleNavigation = () => {
+        navigate("/shipping-address");
+    }
   return (
     <>
       <Navbar />
@@ -12,7 +17,7 @@ const Cart = () => {
         {/*  Title  */}
         <div class="cart-title-container">
             <h1 class="cart-title">Your cart Items</h1>
-            <a href="#" class="back-to-shopping-button">Back to shopping</a>
+            <Link to="/" class="back-to-shopping-button">Back to shopping</Link>
         </div>
 
         {/* Cart items table */}
@@ -48,7 +53,7 @@ const Cart = () => {
                     <p>Tax and shipping cost includes in price</p>
                 </div>
             </div>
-            <button class="check-out-button">Check-out</button>
+            <button class="check-out-button" onClick={handleNavigation}>Check-out</button>
         </div>
         
     </div>

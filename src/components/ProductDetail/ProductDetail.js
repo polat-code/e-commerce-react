@@ -3,8 +3,13 @@ import "./ProductDetail.css";
 import Navbar from "../Navbar/Navbar";
 import cartIcon from "../../images/Cart-product-detail.svg"
 import Footer from '../Footer/Footer';
+import { useNavigate } from 'react-router';
 
 const ProductDetail = () => {
+    const navigation = useNavigate();
+    const handleAddToCart = () => {
+        navigation("/cart");
+    }
   return (
     <>
       <Navbar />
@@ -51,7 +56,7 @@ const ProductDetail = () => {
             
             
             <div className="product-detail-add-to-cart-container">
-                <button className="product-detail-add-to-cart-button" >
+                <button className="product-detail-add-to-cart-button" onClick={handleAddToCart} >
                     <img src={cartIcon} alt=''/>
                     <span id="product-detail-add-to-cart-button-text">+ Add to cart</span>
                 </button>

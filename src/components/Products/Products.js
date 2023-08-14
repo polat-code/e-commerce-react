@@ -4,7 +4,7 @@ import ProductCard from '../ProductCard/ProductCard';
 
 const Products = ()  => {
   return (
-    <div className="products-container">
+    <div className="products-container" id='products-container'>
         <div className="products-header-container">
             <h2 className="products-header">Products</h2>
         </div>
