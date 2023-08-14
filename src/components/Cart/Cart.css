@@ -1,0 +1,202 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+.cart-main-container {
+    margin: 61px 165px 60px 165px;
+}
+
+.cart-title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-title {
+   
+    flex-shrink: 0;
+    color: var(--black, #272727);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 57.6px; /* 221.538% */
+    letter-spacing: -0.9px;
+}
+.back-to-shopping-button {
+    width: 350px;
+    height: 50px;
+    flex-shrink: 0;
+    color: var(--green, #56B280);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 25.6px; /* 142.222% */
+    letter-spacing: 2px;
+    text-decoration-line: underline;
+    margin-bottom: 64px;
+}
+
+
+/* Items Table */
+
+.items-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+.cart-items table td:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+
+.product-table-1{
+    width: 50%;
+}
+
+.product-table-2 {
+    width: 18%;
+}
+.product-table-3 {
+    width: 18%;
+}
+.product-table-4 {
+    width: 14%;
+}
+.product-table-alignment {
+    text-align: center;
+}
+
+#cart-quantity {
+    width: 50px;
+    height: 35px;
+    flex-shrink: 0;
+    border: 1px solid var(--green, #9E9E9E);
+    font-size: 16px;
+}
+
+.product-table-1 {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.title-description h4{
+    width: 445px;
+    height: 37px;
+    color: var(--black, #272727);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 57.6px; /* 221.538% */
+    letter-spacing: -0.9px;
+}
+.title-description a {
+    color: var(--green, #56B280);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px; /* 142.222% */
+    letter-spacing: -0.9px;
+    text-decoration-line: underline;
+}
+
+
+
+.table-heading {
+    color: var(--black, #272727);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.6px; /* 160% */
+    letter-spacing: 0.9px;
+}
+.table-heading-row {
+    border-bottom: 2px solid #E5E5E5;;
+}
+
+.table-data-row {
+    border-bottom: 2px solid #E5E5E5;
+    height: 195px;
+}
+
+/* Check out*/
+
+.checkout-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 45px;
+
+}
+
+.check-out-button {
+    height: 40px;
+    width: 183px;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20.645px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: inline-flex;
+    padding: 8px 44px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--green, #56B280);
+}
+.description-price-section {
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.extra-info-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.total {
+    margin-right: 70px;
+}
+.extra-info-text p {
+    color: #9E9E9E;
+    text-align: right;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px; /* 160% */
+    letter-spacing: 1px;
+}
+
+
+.description-price-section span {
+    margin-left: 20px;
+    height: 26px;
+    flex-shrink: 0;
+    color: var(--black, #272727);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25.6px; /* 128% */
+    letter-spacing: 1px;
+}

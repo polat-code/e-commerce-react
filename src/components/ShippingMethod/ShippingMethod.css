@@ -1,0 +1,189 @@
+body {
+    margin: 0px;
+}
+.shipping-address-main {
+    display: flex;
+    flex-direction: row;
+    margin-left: 165px;
+}
+
+.left {
+    width: 50%;
+    padding-top: 5%;
+}
+
+.right {
+    width: 50%;
+    background: #F2F2F2;
+}
+.left-container {
+    width: 80%;
+}
+
+.contact-ship-preview-container {
+    padding: 30px;
+    
+    border-radius: 7px;
+    border: 1px solid rgba(48, 151, 95, 0.2);
+}
+.contact-ship-preview-container hr {
+    border: 0.5px solid rgba(48, 151, 95, 0.2);
+}
+
+
+.contact-ship-preview-container div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+
+} 
+
+.preview-contact-line-container {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.preview-ship-line-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ship-contact-title {
+    color: #818181;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.6px; /* 111.429% */
+    letter-spacing: -0.2px;
+    padding-right: 8px;
+}
+.contact-email {
+    color: var(--black, #272727);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.6px; /* 111.429% */
+    letter-spacing: -0.2px;
+}
+.ship-to-title {
+    width: 60px;
+    color: #818181;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.6px; /* 111.429% */
+    letter-spacing: -0.2px;
+    padding-right: 8px;
+}
+.ship-to-info {
+    color: var(--black, #272727);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.6px; /* 111.429% */
+    letter-spacing: -0.2px;
+}
+.edit-button {
+    color: var(--green, #56B280);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.6px; /* 111.429% */
+    letter-spacing: -0.2px;
+    text-decoration: none;
+}
+.shipping-method-header {
+    color: var(--black, #272727);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.6px; /* 128% */
+    letter-spacing: -0.9px;
+    margin-top: 60px;
+}
+
+.shipping-choice-radio{
+    background-color: #56B280;
+    border-color: #56B280;
+    margin-right: 23px;
+}
+.shipping-choice-description {
+    color: var(--black, #272727);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.6px; /* 111.429% */
+}
+.shipping-choice-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding : 30px;
+    border-radius: 7px;
+    border: 1px solid #E5E5E5;
+    margin-bottom: 10px;
+}
+.shipping-choice-container div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.shipping-choice-price {
+    color: var(--black, #272727);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15.6px; /* 111.429% */
+    letter-spacing: -0.5spx;
+}
+.back-to-detail {
+    color: var(--green, #56B280);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px; /* 142.222% */
+    letter-spacing: -0.9px;
+    text-decoration-line: underline;
+}
+.go-to-payment-button {
+    border-radius: 4px;
+    background: var(--green, #56B280);
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20.645px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 8px 66px;
+}
+.button-group-shipping {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+
+}

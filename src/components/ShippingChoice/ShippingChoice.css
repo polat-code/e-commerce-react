@@ -1,0 +1,41 @@
+
+.shipping-choice-radio{
+    background-color: #56B280;
+    border-color: #56B280;
+    margin-right: 23px;
+}
+.shipping-choice-description {
+    color: var(--black, #272727);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.6px; /* 111.429% */
+}
+.shipping-choice-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding : 30px;
+    border-radius: 7px;
+    border: 1px solid #E5E5E5;
+    margin-bottom: 10px;
+}
+.shipping-choice-container div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.shipping-choice-price {
+    color: var(--black, #272727);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15.6px; /* 111.429% */
+    letter-spacing: -0.5spx;
+}

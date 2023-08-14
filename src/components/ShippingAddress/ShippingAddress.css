@@ -1,0 +1,390 @@
+body {
+    margin: 0px;
+}
+.shipping-address-main {
+    display: flex;
+    flex-direction: row;
+    margin-left: 165px;
+}
+
+.shipping-address-header {
+    margin-top: 2.3em;
+}
+
+.address-main {
+    width: 50%;
+}
+
+.coupon-code-main {
+    width: 50%;
+    height: 100vh;
+    background: #F2F2F2;
+}
+.address-main-container {
+    width: 90%;
+}
+
+.contact-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.3em;
+}
+
+.contact-header a {
+    text-decoration: none;
+}
+
+.contact-title {
+    width: 160px;
+    height: 26px;
+    flex-shrink: 0;
+    color: var(--black, #272727);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25.6px; /* 128% */
+    
+}
+.contact-extra-info {
+    color: #616161;
+    text-align: right;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.6px; /* 182.857% */
+    letter-spacing: -0.9px;
+}
+.login-button {
+    color: var(--green, #56B280);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.6px;
+    letter-spacing: -0.9px;
+}
+.email-input {
+    width: 93%;
+    height: 30px;
+    flex-shrink: 0;
+    border: 0.5px solid var(--green, #56B280);
+    background: #FFF;
+    color: #616161;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px; /* 182.857% */
+    padding: 7px 17px;
+}
+.newsletter-checkbox-container {
+    margin-top: 7px;
+}
+
+.newsletter-checkbox-info {
+    color: #585757;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.6px; /* 111.429% */
+}
+.newsletter-checkbox {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    border: 2px solid #B7B7B7;
+    background: #FFF;
+}
+
+.shipping-container {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.shipping-header {
+    color: var(--black, #272727);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25.6px; /* 128% */
+    letter-spacing: -0.9px;
+}
+
+#name-input {
+    width: 42%; 
+    
+}
+#surname-input {
+    width: 42%;
+}
+.shipping-name-surname-input {
+    height: 30px;
+    flex-shrink: 0;
+    border: 0.5px solid var(--green, #56B280);
+    background: #FFF;
+    color: #616161;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px; /* 182.857% */
+    padding: 7px 17px;
+
+}
+
+.name-surname-input-container {
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.shipping-input {
+    width: 93%;
+    height: 30px;
+    flex-shrink: 0;
+    border: 0.5px solid var(--green, #56B280);
+    background: #FFF;
+    color: #616161;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px; /* 182.857% */
+    padding: 7px 17px;
+    margin-top: 0.5em;
+
+}
+
+.city-input-container {
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.city-input-group {
+    width: 24%;
+    height: 30px;
+    flex-shrink: 0;
+    border: 0.5px solid var(--green, #56B280);
+    background: #FFF;
+    color: #616161;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px; /* 182.857% */
+    padding: 7px 17px;
+    margin-top: 0.5em;
+}
+
+.info-save-checkbox-container {
+    margin-top: 7px;
+}
+.info-save-checkbox-info {
+    color: #585757;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.6px; /* 111.429% */
+}
+.info-save-checkbox {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    border: 2px solid #B7B7B7;
+    background: #FFF;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5em;
+}
+
+.back-to-cart {
+    color: var(--green, #56B280);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px; /* 142.222% */
+    letter-spacing: -0.9px;
+    text-decoration-line: underline;
+}
+.go-to-shipping-button {
+    border-radius: 4px;
+    background: var(--green, #56B280);
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20.645px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 8px 66px;
+}
+.coupon-code-container {
+    width:60%;
+    margin-top: 15%;
+    margin-left: 15%;
+}
+
+.product-coupon-description-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.coupon-image {
+    background: url("../../images/coupon-image.png"), lightgray 10% / cover no-repeat;
+    width: 160px;
+    height: 120px;
+}
+.product-coupon-text {
+    margin-left: 40px;
+}
+.product-coupon-price {
+    margin-top: 0px;
+    color: var(--green, #56B280);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 57.6px; /* 274.286% */
+    letter-spacing: -0.9px;
+}
+.product-coupon-title {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: var(--black, #272727);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 57.6px; /* 360% */
+    letter-spacing: -0.9px;
+}
+
+.horizontal-line {
+    background-color: var(--green, #56B280);
+}
+
+.coupon-input-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+.coupon-input {
+    width: 60%;
+    height: 36px;
+    color: #616161;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.6px; /* 182.857% */
+    letter-spacing: -0.9px;
+    border: 0.5px solid #898989;
+    background: #FFF;
+    padding: 2px 5px 2px 15px;
+}
+
+.coupon-button {
+    color: #FFF;
+    padding: 8px 18px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 4px;
+    background: #A8A8A8;
+}
+
+.subtotal-text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.subtotal-text-container p {
+    color: var(--black, #272727);
+    text-align: right;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.6px; /* 182.857% */
+    letter-spacing: 1px;
+}
+.shipping-text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.shipping-text-container p{
+    color: var(--black, #272727);
+    text-align: right;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.6px; /* 182.857% */
+    letter-spacing: 1px;
+}
+.total-text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.total-text-container  p{
+    color: var(--black, #272727);
+    text-align: right;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.6px; /* 182.857% */
+    letter-spacing: 1px;
+} 
+#last-total {
+    color: var(--black, #272727);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.6px; /* 106.667% */
+    letter-spacing: -0.9px;
+}

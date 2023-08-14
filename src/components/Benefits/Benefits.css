@@ -1,0 +1,83 @@
+.benefits {
+    margin: 133px 165px 170px 165px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.benefits-header {
+    display: flex;
+    width: 350px;
+    height: 105px;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    color: #1D252C;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 46.6px; /* 116.5% */
+    letter-spacing: -0.9px;
+}
+
+.benefits-sub-header {
+    width: 350px;
+    height: 25px;
+    flex-shrink: 0;
+    color: var(--green, #56B280);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.8px; /* 142.5% */
+}
+
+.benefits-item-container {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.benefits-item-container img {
+    padding: 6px 7px 6px 0px;
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+}
+
+.benefits-item-text {
+    width: 516px;
+    height: 28px;
+    flex-shrink: 0;
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28.8px; /* 180% */
+}
+
+.benefits-button {
+    display: inline-flex;
+padding: 8px 44px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 4px;
+background: var(--green, #56B280);
+}
+.benefits-button-container {
+    margin-top: 68px;
+}
+
+.benefits-button-text {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

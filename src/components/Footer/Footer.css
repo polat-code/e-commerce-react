@@ -1,0 +1,62 @@
+.footer-container {
+    background: var(--black, #272727);
+    height: 383px;
+    padding: 60.16px 165px 110px 165px;
+}
+
+.footer {
+    padding-top: 10px;
+}
+
+.footer-horizontal-line {
+    height: 1px;
+    background: #FFF;
+}
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-navigations {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.footer-logo-text {
+    width: 300px;
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.8px; /* 142.5% */
+    letter-spacing: -0.1px;
+}
+
+.footer-item {
+    width: 168.836px;
+    height: 24.848px;
+    flex-shrink: 0;
+    color: #E1E1E1;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28.8px; /* 180% */
+    padding-bottom: 30px;
+}
+.footer-item-title {
+    color: var(--green, #56B280);
+font-family: Avenir;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 28.8px; /* 180% */
+}
