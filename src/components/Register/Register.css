@@ -1,0 +1,64 @@
+.register-title {
+    color: var(--black, #272727);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25.6px; /* 128% */
+    letter-spacing: -0.2px;
+}
+
+.register-name-surname-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.register-name-surname-container input {
+    color: #616161;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px; /* 182.857% */
+    padding: 7px 17px;
+    width: 43%;
+    margin-bottom: 12px;
+    border: 0.5px solid #898989;
+    background: #FFF;
+}
+.register-form-input {
+    color: #616161;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px; /* 182.857% */
+    padding: 7px 17px;
+    width: 94.0%;
+    margin-bottom: 12px;
+    border: 0.5px solid #898989;
+    background: #FFF;
+}
+.register-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.register-button-container button {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 4px;
+    background: var(--green, #56B280);
+    padding: 8px 44px;
+    margin-top: 12px;
+}
+

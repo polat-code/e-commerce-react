@@ -1,0 +1,64 @@
+.log-in-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 165px;
+}
+
+.left-register {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+    width: 50%;
+    height: 700px;
+    margin-right: 50px;
+}
+.right-log-in {
+    width: 50%;
+    background: #D9D9D9;
+    height: 800px;
+    
+}
+
+.right-log-in div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+
+
+}
+
+.right-log-in div h2 {
+    color: var(--black, #272727);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25.6px; /* 128% */
+    letter-spacing: -0.2px;
+}
+
+.right-log-in button {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 4px;
+    background: var(--green, #56B280);
+    padding: 8px 44px;
+    margin-top: 12px;
+    border-color: #D9D9D9;
+    
+}
+#login-email-input {
+    width: 303px;
+}
+#login-password-input {
+    width: 303px;
+}
+

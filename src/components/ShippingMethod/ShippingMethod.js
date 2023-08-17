@@ -2,7 +2,7 @@ import React from 'react'
 import "./ShippingMethod.css";
 import ShippingChoice from '../ShippingChoice/ShippingChoice';
 import { Link, useNavigate } from 'react-router-dom';
-
+import logo from "../../images/logo.jpg";
 const ShippingMethod = () => {
     const navigation = useNavigate();
     const handlePaymentButton = () => {
@@ -12,6 +12,11 @@ const ShippingMethod = () => {
     <div class="shipping-address-main">
         <div class="left">
             <div class="left-container">
+                
+                <div className="logo-container">
+                    <Link to="/"><img id="logo" src={logo}  alt='logo'/></Link>
+                </div>
+
                 <div class="contact-ship-preview-main">
                     <div class="contact-ship-preview-container">
                         <div class="preview-contact-line-container">
@@ -28,11 +33,11 @@ const ShippingMethod = () => {
                 </div>
             
                 <h2 class="shipping-method-header">Shipping Method</h2>
-                <form>
+                
                     <ShippingChoice shippingTitle="İyte Kargo" shippingPrice="$ 10.99"/>
                     <ShippingChoice shippingTitle="Standart Shipping" shippingPrice="Free"/>
     
-                </form>
+                
                 <div class="button-group-shipping">
                     <Link to="/shipping-address" class="back-to-detail">Back to details</Link>
                     <button class="go-to-payment-button" onClick={handlePaymentButton} >Go to payment</button>
@@ -43,7 +48,7 @@ const ShippingMethod = () => {
         <div class="right">
             <div class="coupon-code-container">
                 <div class="product-coupon-description-container">
-                    <img class="coupon-image" src="./products/products-mini/cart-mini-photo.png"/>
+                    <img class="coupon-image" src="./products/products-mini/cart-mini-photo.png" alt='coupon-image'/>
                     <div class="product-coupon-text">
                         <h4 class="product-coupon-title">Spiced Mint Candleaf®</h4>
                         <p class="product-coupon-price">$ 9.99</p>

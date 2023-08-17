@@ -9,16 +9,20 @@ body {
 
 .left {
     width: 50%;
-    padding-top: 5%;
+    
 }
 
-.right {
+.shipping-address-main .right {
     width: 50%;
     background: #F2F2F2;
-    height: 100vh;
+    height: default !important;
 }
 .left-container {
     width: 80%;
+}
+.logo-container {
+    margin-top: 2.3em;
+    margin-bottom: 1.3em;
 }
 
 .contact-ship-preview-container {
