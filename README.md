@@ -1,4 +1,7 @@
 # E-Commerce Application by using React
+
+<p>This project is coded by using HTML, CSS and React. All HTML and CSS code is written by me from scratch.</p>
+
 <h2>Main Page</h2>
 <img src="./demo/demo01.gif"  alt="demo01" />
 <br />
