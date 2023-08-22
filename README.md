@@ -1,6 +1,6 @@
 # E-Commerce Application by using React
 
-<img src="./demo01.gif"  alt="demo01" height="600"/>
+<img src="./demo01.gif"  alt="demo01" height="600px" width= "600px"/>
 
 <br />
 <img src="./demo01.gif"  alt="demo02"/>
