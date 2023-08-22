@@ -14,7 +14,7 @@
 <h2>Payment</h2>
 <img src="./demo/demo05.gif"  alt="demo05"/>
 <br />
-<h2>Demo 01</h2>
+<h2>Payment Successful</h2>
 <img src="./demo/demo06.gif"  alt="demo06"/>
 <br />
 <h2>Product Detail</h2>
