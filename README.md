@@ -17,10 +17,10 @@
 <h2>Payment</h2>
 <img src="./demo/demo05.gif"  alt="demo05"/>
 <br />
-<h2>Payment Successful</h2>
+<h2>Product Detail</h2>
 <img src="./demo/demo06.gif"  alt="demo06"/>
 <br />
-<h2>Product Detail</h2>
+<h2>Add to Cart</h2>
 <img src="./demo/demo07.gif"  alt="demo07"/>
 <br />
 
