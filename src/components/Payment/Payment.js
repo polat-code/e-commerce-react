@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Payment.css";
-import creditCardIcon from "../../images/CreditCardFill2.svg";
+import creditCardIcon from "../../images/CreditCardFill.svg";
 import couponImage from "../../images/coupon-image.png";
 import { useNavigate } from 'react-router';
 import { Link } from 'react-router-dom';
